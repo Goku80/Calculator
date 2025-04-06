@@ -1,7 +1,12 @@
-# Calculator
-Einfache Taschenrechner-App in Java
-Benutzeroberfläche (GUI) unter Verwendung von Swing. 
-Der Taschenrechner unterstützt grundlegende mathematische Operationen wie Addition,
-Subtraktion, Multiplikation, Division und einige weitere Funktionen wie Vorzeichenwechsel und Prozentberechnung.
+# Calculator – Infix/Postfix Taschenrechner
 
-![calculator](https://github.com/Goku80/Rekursive-Kreise-Visualisierung/assets/100942501/198bac7e-f9b1-42a9-9eef-8c4b36158c93)
+Ein einfacher Taschenrechner in Java Swing, der mathematische Ausdrücke von Infix in Postfix umwandelt und auswertet. Er bietet:
+
+- **GUI:** Benutzerfreundliche Oberfläche mit Swing
+- **Ausdrucksumwandlung:** Umwandlung von Infix in Postfix
+
+## Installation und Ausführung
+
+1. **Kompilieren:**
+   ```bash
+   javac Calculator.java Infix.java Postfix.java
